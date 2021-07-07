@@ -59,7 +59,7 @@ const Account = () => {
       <p>Select an action below to continue.</p>
       <div>
         <select onChange={(e) => handleModeSelect(e)} name="mode" id="mode-select">
-          <option id="no-selection" value=""></option>
+          <option id="no-selection" value="">- Select Action -</option>
           <option id="deposit-selection" value="Deposit">Deposit</option>
           <option id="cashback-selection" value="Cash Back">Cash Back</option>
         </select>
