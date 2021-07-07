@@ -54,7 +54,7 @@ const Account = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form className="atm" onSubmit={handleSubmit}>
       <h2 id="total">{status}</h2>
       <p>Select an action below to continue</p>
       <div>

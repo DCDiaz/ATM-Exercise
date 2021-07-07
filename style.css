@@ -1,11 +1,21 @@
+body {
+  padding: 40px;
+}
+
+.atm {
+  margin: 0 auto;
+  max-width: 500px;
+  width: 100%;
+}
+
 button {
-    background-color: #0c80f3;
-    border: 6px solid #0ff166;
-    border-radius: 10px;
-    width: 150px;
-  }
+  background-color: #0c80f3;
+  border: 6px solid #0ff166;
+  border-radius: 10px;
+  width: 150px;
+}
   
-  select {
-    display: block;
-    margin-bottom: 20px;
-  }  
+select {
+  display: block;
+  margin-bottom: 20px;
+}  
