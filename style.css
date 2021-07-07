@@ -4,10 +4,17 @@ body {
 }
 
 .atm {
+  border: 1px solid #777;
+  border-radius: 20px;
   margin: 0 auto;
   max-width: 500px;
+  padding: 40px;
   text-align: center;
   width: 100%;
+}
+
+h1 {
+  margin-bottom: 40px;
 }
 
 button {
@@ -18,6 +25,5 @@ button {
 }
   
 select {
-  display: block;
   margin-bottom: 20px;
 }  

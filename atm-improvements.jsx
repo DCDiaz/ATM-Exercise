@@ -5,7 +5,7 @@ const ATMDeposit = ({ onChange, isDeposit, validTransaction }) => {
   return (
     <label className="label huge">
       <h3> {choice[Number(!isDeposit)]}</h3>
-      <span>$</span><input id="number-input" type="number" width="200" onChange={onChange}></input>
+      <span>$</span> <input id="number-input" type="number" width="100" onChange={onChange}></input>
       <input type="submit" width="200" value="Submit" id="submit-input" disabled={!isValid}></input>
     </label>
   );
@@ -18,7 +18,7 @@ const Account = () => {
   const [atmMode, setAtmMode] = React.useState("");
   const [validTransaction, setValidTransaction] = React.useState(false);
 
-  let status = `Account Balance $ ${totalState} `;
+  let status = `Account Balance: $${totalState} `;
   //console.log(`Account Rendered with isDeposit: ${isDeposit}`);
 
   const handleChange = (event) => {
