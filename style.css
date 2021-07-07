@@ -30,6 +30,7 @@ button {
 input {
   color: #0C0;
   font-size: 22px;
+  padding: 10px;
 }
 
 input[type="number"] {
