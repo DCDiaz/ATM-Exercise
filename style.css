@@ -36,6 +36,7 @@ input {
 input[type="number"] {
   background: #000;
   border: 1px solid #090;
+  width: 50%;
 }
 
 input[type="submit"] {
