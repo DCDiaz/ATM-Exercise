@@ -11,7 +11,7 @@ Download all of the files within this repository, and load the index.html file i
 - Dispense real cash. (jk)
 
 ## Support
-I can be reached via email at david@d2weblogic.com, or connect with me on LinkedIn at https://www.linkedin.com/in/david-diaz-b64aa88a/
+I can be reached via email at david@d2weblogic.com, or connect with me on LinkedIn at https://www.linkedin.com/in/dave-diaz-b64aa88a/
 
 ## License information
 MIT License
